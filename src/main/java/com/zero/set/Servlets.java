@@ -16,7 +16,7 @@ import java.io.IOException;
  * @Date: 2020/11/20 9:23
  */
 @WebServlet(name = "Servlet",urlPatterns = "/aaa")
-public class Servlet extends HttpServlet {
+public class Servlets extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println("post");

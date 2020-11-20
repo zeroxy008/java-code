@@ -8,5 +8,14 @@
 </head>
 <body>
 ${c:toUpperCase("hello")}
+<h3>${pageContext.request.contextPath}</h3>
+<h3>${pageContext.servletContext.serverInfo}</h3>
+<h3><%=System.getProperty("java.version")%></h3>
+<h3><%=System.getProperty("java.home")%></h3>
+<h3><%=System.getProperty("os.name")%></h3>
+<hr>
+<form action="/aaa" method="post">
+    <input type="submit" value="提交/aaa">
+</form>
 </body>
 </html>
